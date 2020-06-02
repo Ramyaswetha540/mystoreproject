@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "search product",
+        "description": "",
+        "id": "search-product-test;search-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10370588300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Searchproductstepdefination.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1527862100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user mousehover on Women tab and clicks on tshirts",
+            "match": {
+              "location": "Searchproductstepdefination.user_mousehover_on_Women_tab_and_clicks_on_tshirts()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43544000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user will get Text of the first product in the page",
+            "match": {
+              "location": "Searchproductstepdefination.user_will_get_Text_of_the_first_product_in_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1234434000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters the product name and clicks on submit button",
+            "match": {
+              "location": "Searchproductstepdefination.user_enters_the_product_name_and_clicks_on_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3230894500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user will  Validate that same product is displayed on searched page by taking screenshot",
+            "match": {
+              "location": "Searchproductstepdefination.user_will_Validate_that_same_product_is_displayed_on_searched_page_by_taking_screenshot()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search product test",
+    "description": "",
+    "id": "search-product-test",
+    "keyword": "Feature",
+    "uri": "C:/Users/14388/eclipse-workspace/mystoreecommerce_cucumber/src/main/java/com/features/searchproduct.feature"
+  }
+]
